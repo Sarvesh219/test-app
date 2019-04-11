@@ -1,0 +1,31 @@
+header {
+    background: #121212;
+    display: block;
+    height: 130px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+
+    .wrapper {
+        display: block;
+        height: 50%;
+        margin: 0 auto;
+        max-width: 980px;
+        position: relative;
+        width: 100%;
+
+        .logo {
+            display: block;
+            left: 10px;
+            position: absolute;
+            top: 9px;
+            width: 120px;
+
+            img {
+                display: block;
+                margin: 0;
+                width: 100%;
+            }
+        }
+    }
+}
